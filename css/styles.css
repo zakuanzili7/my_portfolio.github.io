@@ -11273,4 +11273,23 @@ header.masthead h1, header.masthead .h1 {
   .contact-info {
       flex-direction: column;
   }
+  .profile-img-wrapper {
+    width: 200px; /* Adjust size as needed */
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    overflow: hidden; /* Keeps the border fixed */
+    display: inline-block;
+  }
+}
+
+@media (max-width: 1200px) {
+  .profile-img-wrapper {
+    width: 300px; /* Adjust size as needed */
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    overflow: hidden; /* Keeps the border fixed */
+    display: inline-block;
+  }
 }
