@@ -8117,6 +8117,9 @@ textarea.form-control-lg {
 .text-white {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  margin-bottom: 2rem;
+  line-height: 1.8;
+  text-justify: inter-word;
 }
 
 .text-body {
@@ -10913,8 +10916,6 @@ body {
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75) !important;
-  margin-bottom: 2rem;
-  line-height: 1.8;
 }
 
 .btn-xl {
