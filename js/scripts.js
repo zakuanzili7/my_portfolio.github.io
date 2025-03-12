@@ -61,12 +61,11 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
     const texts = [
-        "<br>A passionate Full-Stack Developer.<br><br>",
-        "<br>A creative UI/UX Designer.<br><br>",
-        "<br>A Web & Mobile Developer.<br><br>"
+        "A creative UI/UX Designer.",
+        "A Web & Mobile Developer."
     ];
     
-    const originalText = "A passionate Full-Stack Developer specializing in modern web and mobile applications. <br>I build high-quality digital solutions with a focus on performance, usability, and innovation.";
+    const originalText = "A passionate Full-Stack Developer.";
     
     let index = 0;
     let cycleCount = 0;
